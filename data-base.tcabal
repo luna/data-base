@@ -1,5 +1,5 @@
 name:                data-base
-version:             1.0
+version:             1.1
 synopsis:            Utilities for accessing and comparing types based on so called bases - representations with limited polymorphism.
 -- description:         
 license:             Apache-2.0
