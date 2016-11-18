@@ -1,0 +1,23 @@
+author: Wojciech Danilo
+bug-reports: https://github.com/wdanilo/data-base/issues
+category: Text
+copyright: Copyright (C) 2016 Wojciech Danilo
+default-extensions: [ConstraintKinds, DataKinds, DefaultSignatures, DeriveDataTypeable,
+  DeriveFoldable, DeriveFunctor, DeriveGeneric, DeriveTraversable, DoAndIfThenElse,
+  EmptyDataDecls, FlexibleContexts, FlexibleInstances, GeneralizedNewtypeDeriving,
+  InstanceSigs, LambdaCase, MultiParamTypeClasses, OverloadedStrings, StandaloneDeriving,
+  ScopedTypeVariables, TemplateHaskell, TupleSections, TypeOperators, ViewPatterns,
+  TypeFamilies]
+dependencies: [base >=4.6 && <4.10]
+ghc-options: [-Wall, -O2]
+homepage: https://github.com/wdanilo/data-base
+library:
+  exposed-modules: [Data.Base]
+  source-dirs: src
+license: Apache-2.0
+maintainer: Wojciech Danilo <wojciech.danilo@gmail.com>
+name: data-base
+stability: experimental
+synopsis: Utilities for accessing and comparing types based on so called bases - representations
+  with limited polymorphism.
+version: 1.1.2
