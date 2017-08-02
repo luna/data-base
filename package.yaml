@@ -8,7 +8,7 @@ default-extensions: [ConstraintKinds, DataKinds, DefaultSignatures, DeriveDataTy
   InstanceSigs, LambdaCase, MultiParamTypeClasses, OverloadedStrings, StandaloneDeriving,
   ScopedTypeVariables, TemplateHaskell, TupleSections, TypeOperators, ViewPatterns,
   TypeFamilies]
-dependencies: [base >=4.6 && <4.10]
+dependencies: [base]
 ghc-options: [-Wall, -O2]
 homepage: https://github.com/wdanilo/data-base
 library:
@@ -20,4 +20,4 @@ name: data-base
 stability: experimental
 synopsis: Utilities for accessing and comparing types based on so called bases - representations
   with limited polymorphism.
-version: 1.1.6
+version: 1.1.7
